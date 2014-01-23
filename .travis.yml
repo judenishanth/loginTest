@@ -1,5 +1,5 @@
 language: java
-before_deploy: "echo 'ready?'"
+before_deploy: "echo rvm_autoupdate_flag=2 >> ~/.rvmrc"
 deploy:
   provider: s3
   access_key_id: "AKIAIY5BQWP52Y47JDTA"
