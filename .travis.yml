@@ -1,8 +1,5 @@
 language: java
-before_deploy: "echo rvm_autoupdate_flag=2 >> ~/.rvmrc"
 deploy:
-  provider: s3
-  access_key_id: "AKIAIY5BQWP52Y47JDTA"
-  secret_access_key: "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"
-  bucket: "S3_Bucket_Jude"
-  skip_cleanup: true
+  provider: heroku
+  api_key: "1ae3e1bf-3031-4f6a-8858-57d5d0eabe90"
+  app: loginTest
