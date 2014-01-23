@@ -1,7 +1,6 @@
-language: java
  deploy:
   provider: s3
-  access_key_id: "AKIAIY5BQWP52Y47JDTA "
+  access_key_id: "AKIAIY5BQWP52Y47JDTA"
   secret_access_key: "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"
   bucket: "S3 Bucket"
   skip_cleanup: true
