@@ -4,5 +4,5 @@ deploy:
   provider: s3
   access_key_id: "AKIAIY5BQWP52Y47JDTA"
   secret_access_key: "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"
-  bucket: "S3 Bucket"
+  bucket: "S3_Bucket_Jude"
   skip_cleanup: true
